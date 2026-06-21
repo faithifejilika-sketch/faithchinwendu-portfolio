@@ -1167,7 +1167,12 @@
         <div class="section-label">Contact</div>
         <h2>Let's Work Together</h2>
         <p>Available for freelance projects, remote contracts, and long-term social media management opportunities.</p>
-
+ 
+        <a href="https://calendly.com/faithifejilika/new-meeting" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin:10px 0 8px; display:inline-flex; align-items:center; gap:8px;">
+          📅 Book a Call
+        </a>
+        <p style="font-size:13px; margin-bottom:25px;">Prefer to talk it through? Pick a time that works for you, or fill out the form below.</p>
+ 
         <form action="https://formspree.io/f/mbdeorvd" method="POST">
           <input type="text"  name="name"    placeholder="Your Name"  required>
           <input type="email" name="email"   placeholder="Your Email" required>
@@ -1185,7 +1190,7 @@
       </div>
     </div>
   </section>
-
+ 
   <!-- FOOTER -->
   <footer>
     <div class="container">
@@ -1200,15 +1205,15 @@
       </div>
     </div>
   </footer>
-
+ 
   <!-- SCRIPTS -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({ duration: 1000, once: true });
-
+ 
     const counters = document.querySelectorAll('.counter');
     const observed = new Set();
-
+ 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting && !observed.has(entry.target)) {
@@ -1217,9 +1222,9 @@
         }
       });
     }, { threshold: 0.5 });
-
+ 
     counters.forEach(counter => observer.observe(counter));
-
+ 
     function animateCounter(counter) {
       const target = +counter.getAttribute('data-target');
       const duration = 1500;
@@ -1237,6 +1242,6 @@
       requestAnimationFrame(update);
     }
   </script>
-
+ 
 </body>
 </html>
