@@ -7,7 +7,7 @@ Add your work samples here. Name them exactly as shown:
   project3.jpg  → Social Media Growth Campaign
   project4.jpg  → Content Strategy Dashboard
   project5.jpg  → UGC Creator Operations
-
+  project6.mp4  → Instagram Reel
 Supported formats: .jpg, .jpeg, .png, .webp
 
 Recommended size: at least 800×500px for best display quality.
